@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 
-html,body{
-    width: 100%;
+body{
+    overflow-y: scroll;
 }
 .active{
     @apply text-blue-600;
