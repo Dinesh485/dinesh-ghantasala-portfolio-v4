@@ -17,7 +17,7 @@ function App() {
   return (
     <>
      <NavBar />
-     <AnimatePresence mode = "wait">
+     <AnimatePresence mode = "wait" initial = {false} >
       <Routes location={location} key ={location.pathname} >
           <Route index path="/" element = {<Home />} />
           <Route path="/about" element = {<About />} />
