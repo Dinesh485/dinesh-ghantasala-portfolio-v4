@@ -20,7 +20,7 @@ const Projects = () => {
             <div className="py-20 pt-24  sm:py-16 sm:pt-24 lg:pt-32 lg:py-24 ">
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
                       <section>
-                      <h1 className="text-3xl font-bold leading-tight text-gray-900 text-center  sm:text-4xl lg:text-5xl lg:leading-tight ">Projects</h1>
+                      <h1 className="text-3xl font-bold leading-tight text-gray-900 dark:text-gray-100 text-center  sm:text-4xl lg:text-5xl lg:leading-tight ">Projects</h1>
                        <div className="grid md:grid-cols-2 gap-5 py-10  sm:py-16 lg:py-24">
                          {projects && projects.length> 0 && projects.map(project =>{
                              return (

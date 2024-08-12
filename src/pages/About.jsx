@@ -10,7 +10,7 @@ const About = () => {
             <div className="py-20 pt-24  sm:py-16 sm:pt-24 lg:pt-32 lg:py-24 ">
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
                     <section>
-                        <h1 className="text-3xl font-bold leading-tight text-gray-900  sm:text-4xl lg:text-5xl lg:leading-tight ">About Me</h1>
+                        <h1 className="text-3xl font-bold leading-tight text-gray-900 dark:text-gray-100  sm:text-4xl lg:text-5xl lg:leading-tight ">About Me</h1>
                         <div className="py-10  sm:py-16 lg:py-24">
                             <div className="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8">
                                 <motion.div variants={fadeInVarients} className="md:flex md:items-center md:justify-center md:space-x-14">
@@ -21,7 +21,7 @@ const About = () => {
 
                                     <div className="mt-10 md:mt-0">
 
-                                        <p className="text-base leading-relaxed  text-gray-800 xl:text-lg">I&apos;m <span className='font-bold text-xl'>Dinesh Ghantasala</span>, hailing from Eluru, Andhra Pradesh, India. I have a Bachelor of Science degree in Computer Science from Sir C R Reddy College. With a passion for web development, I specialize in HTML, CSS, JavaScript, and React. Seeking an exciting job opportunity to apply and expand my expertise as a MERN stack developer. Committed to continuous learning and eager to contribute to a dynamic organization.</p>
+                                        <p className="text-base leading-relaxed  text-gray-800 xl:text-lg dark:text-gray-200">I&apos;m <span className='font-bold text-xl dark:text-gray-100'>Dinesh Ghantasala</span>, hailing from Eluru, Andhra Pradesh, India. I have a Bachelor of Science degree in Computer Science from Sir C R Reddy College. With a passion for web development, I specialize in HTML, CSS, JavaScript, and React. Seeking an exciting job opportunity to apply and expand my expertise as a MERN stack developer. Committed to continuous learning and eager to contribute to a dynamic organization.</p>
 
 
                                     </div>
@@ -31,21 +31,21 @@ const About = () => {
                     </section>
 
                     <section className=''>
-                        <h2 className="text-2xl leading-tight text-black text-center  sm:text-3xl lg:text-4xl lg:leading-tight mb-9">Skills</h2>
+                        <h2 className="text-2xl leading-tight text-black text-center  sm:text-3xl lg:text-4xl lg:leading-tight mb-9 dark:text-gray-100">Skills</h2>
                         <div className='flex flex-wrap items-center justify-center gap-5 mx-auto w-fit mb-10'>
                              {skillsData.map(skill => {
                                  return <motion.div variants={fadeInVarients} className = 'flex flex-col items-center justify-center'>
                                  <CircularProgress progress={skill.progress} >
                                      {skill.svg}
                                  </CircularProgress>
-                                 <p className = 'text-center mt-2 text-lg font-medium'>{skill.title}</p>
+                                 <p className = 'text-center mt-2 text-lg font-medium dark:text-gray-200'>{skill.title}</p>
                              </motion.div>
                              })}
                         </div>
                     </section>
 
                     <section className="py-10  sm:py-16 lg:py-24">
-                        <h2 className="text-2xl leading-tight text-black  sm:text-3xl lg:text-4xl lg:leading-tight mb-9">My Journey</h2>
+                        <h2 className="text-2xl leading-tight text-black  sm:text-3xl lg:text-4xl lg:leading-tight mb-9 dark:text-gray-100">My Journey</h2>
                         <ol className="relative border-l border-blue-300 dark:border-gray-700">
                             {timelineData.map((item, index) => (
                                 <motion.li
