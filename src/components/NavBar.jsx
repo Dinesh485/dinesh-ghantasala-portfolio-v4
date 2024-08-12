@@ -11,7 +11,7 @@ const NavBar = () => {
     return (
 
 
-        <nav className="bg-white dark:bg-gray-950 fixed w-full z-20  top-0 left-0 border-b border-gray-200 dark:border-gray-600  transition-colors duration-500">
+        <nav className="bg-white dark:bg-gray-950 fixed w-full z-20  top-0 left-0    transition-colors duration-500">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:grid lg:grid-cols-3">
                 <NavLink href="https://flowbite.com/" className="flex items-center">
                         <span className="self-center text-3xl font-semibold whitespace-nowrap text-blue-600 dark:text-white xl:text-5xl">DG</span>
