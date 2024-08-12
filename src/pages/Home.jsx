@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import profileimage from 'src/assets/images/profile.jpg'
+import profileimage from 'src/assets/images/profile.webp'
 import {motion } from 'framer-motion'
 import { pageVarients,  fadeInVarients } from 'src/constants/animationVariants'
 const Home = () => {

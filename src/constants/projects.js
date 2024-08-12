@@ -1,8 +1,8 @@
-import webcreatives from 'src/assets/images/projects/webcreativesio.png'
-import restorio from 'src/assets/images/projects/restorio.png'
-import anafox from 'src/assets/images/projects/anafoxbeauty.png'
-import fastfoodeminescu from 'src/assets/images/projects/fastfoodeminescu.png'
-import outlight from 'src/assets/images/projects/outlight.png'
+import webcreatives from 'src/assets/images/projects/webcreativesio.webp'
+import restorio from 'src/assets/images/projects/restorio.webp'
+import anafox from 'src/assets/images/projects/anafoxbeauty.webp'
+import fastfoodeminescu from 'src/assets/images/projects/fastfoodeminescu.webp'
+import outlight from 'src/assets/images/projects/outlight.webp'
 
 const projects = [
     {

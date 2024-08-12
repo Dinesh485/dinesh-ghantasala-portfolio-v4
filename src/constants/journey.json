@@ -1,0 +1,27 @@
+[
+    {
+        "date": "January 2019",
+        "title": "From Hobby to Passion: Discovering the Joy of Coding in 12th Grade",
+        "description": "During my 12th grade, I embarked on a journey that would change my life forever. What started as a mere hobby quickly transformed into a deep-rooted passion for coding. The thrill of solving problems, creating something from scratch, and seeing the results firsthand ignited a fire within me."
+    },
+    {
+        "date": "June 2019",
+        "title": "College Days: Practicing, Projects, and Passionate Pursuits",
+        "description": "Throughout my college days, I immersed myself in the world of programming. I dedicated countless hours to honing my skills, embracing every opportunity to practice and expand my knowledge. It was during this time that I undertook various projects, applying what I had learned and challenging myself to push the boundaries of my abilities."
+    },
+    {
+        "date": "October 2020",
+        "title": "Freelancing Adventures: HTML, CSS, JS, and TailwindCSS",
+        "description": "As I continued to grow as a developer, I ventured into the world of freelancing. Specializing in HTML, CSS, and JavaScript, with a particular focus on the versatile TailwindCSS framework, I collaborated with clients to bring their visions to life. This freelancing experience allowed me to gain practical experience, refine my coding skills, and learn the importance of meeting client expectations."
+    },
+    {
+        "date": "September 2022",
+        "title": "Leveling Up with React: Expanding Skills as a Freelancer",
+        "description": "Following the completion of my college education, I embarked on a new chapter as a freelance developer, with React as my primary focus. Engaging in various React projects, I honed my expertise in this powerful JavaScript library. Working independently, I faced new challenges head-on, further refining my problem-solving abilities and expanding my knowledge of frontend development."
+    },
+    {
+        "date": "Present",
+        "title": "Seeking the Next Chapter: Eager to Contribute at a Company",
+        "description": "Now, with a strong foundation and a wealth of experiences behind me, I am eager to embark on the next stage of my career. I am actively seeking an opportunity to join a forward-thinking company, where I can contribute my skills, collaborate with a talented team, and continue growing as a MERN stack developer. I am ready to take on new challenges, make a meaningful impact, and thrive in a dynamic and innovative work environment."
+    }
+]
