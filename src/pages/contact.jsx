@@ -33,7 +33,7 @@ const Contact = () => {
                                  {item.svg}
                                 <div>
                                   <p className="ml-3 text-gray-600 dark:text-gray-400 text-sm">{item.label}</p>
-                                  <p className="ml-3 dark:text-gray-300">{item.value}</p>
+                                  <p className="ml-3 dark:text-gray-200">{item.value}</p>
                                 </div>
                               </motion.a>
                            })}

@@ -7,5 +7,5 @@ body{
     overflow-y: scroll;
 }
 .active{
-    @apply !text-blue-600;
+    @apply !text-blue-600 dark:!text-blue-500;
 }

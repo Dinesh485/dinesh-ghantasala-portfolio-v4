@@ -46,17 +46,18 @@ const About = () => {
 
                     <section className="py-10  sm:py-16 lg:py-24">
                         <h2 className="text-2xl leading-tight text-black  sm:text-3xl lg:text-4xl lg:leading-tight mb-9 dark:text-gray-100">My Journey</h2>
-                        <ol className="relative border-l border-blue-300 dark:border-gray-700">
+                        <ol className="relative border-l border-blue-300 dark:border-blue-900 ">
                             {timelineData.map((item, index) => (
-                                <motion.li
+                                <li>
+                                    <div className="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-[6.5px] "></div>
+                                    <motion.div
                                     key={index}
                                     variants={fadeInVarients}
                                     initial={'hidden'}
                                     whileInView={'show'}
-                                    viewport={{ amount: 'some' }}
+                                    viewport={{ amount: 'all' }}
                                     className="mb-10 ml-4"
                                 >
-                                    <div className="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                                         {item.date}
                                     </time>
@@ -66,7 +67,8 @@ const About = () => {
                                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                                         {item.description}
                                     </p>
-                                </motion.li>
+                                </motion.div>
+                                </li>
                             ))}
                         </ol>
                     </section>
