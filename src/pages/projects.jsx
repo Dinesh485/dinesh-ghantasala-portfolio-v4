@@ -24,9 +24,9 @@ const Projects = () => {
                        <div className="grid md:grid-cols-2 gap-5 py-10  sm:py-16 lg:py-24">
                          {projects && projects.length> 0 && projects.map(project =>{
                              return (
-                                <motion.a variants={fadeInVarients} initial = {'hidden'} animate = {'show'} whileHover = {'showChild'} href = {project.link} key ={project.name} target = '_blank' rel = 'noreferrer' className=" group relative w-full  overflow-hidden rounded-2xl">
-                                     <img src = {project.image} alt = "project image" className="h-full  filter brightness-50 " />
-                                     <div className="absolute bottom-0 left-0 text-white p-5 max-w-sm ">
+                                <motion.a variants={fadeInVarients} initial = {'hidden'} animate = {'show'} whileHover = {'showChild'} href = {project.link} key ={project.name} target = '_blank' rel = 'noreferrer' className=" group relative w-full  overflow-hidden rounded-2xl shadow-lg">
+                                     <img src = {project.image} alt = "project image" className="h-full  filter " />
+                                     <div className="absolute bottom-0 left-0 text-white p-5 max-w-sm bg-gray-900/80 rounded-se-xl">
                                          <p className="font-medium">{project.name}</p>
                                          <motion.p variants={variants} className="text-sm overflow-hidden">{project.desc}</motion.p>
                                      </div>
