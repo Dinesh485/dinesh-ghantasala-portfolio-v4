@@ -22,7 +22,7 @@ const ImageLoader = ({ src, alt }) => {
                 alt={alt}
                 onLoad={handleImageLoad}
                 style={{ display: loading ? 'none' : 'block' }}
-                className=' object-cover'
+                className='w-full h-full object-cover'
             />
         </div>
     );
