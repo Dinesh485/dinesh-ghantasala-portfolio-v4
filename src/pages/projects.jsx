@@ -1,6 +1,7 @@
 import { fadeInVarients, pageVarients } from "src/constants/animationVariants"
 import { motion } from 'framer-motion'
 import projects from 'src/constants/projects'
+import ImageLoader from "src/components/ImageLoader"
 const Projects = () => {
     const variants = {
         hidden:{
@@ -24,11 +25,11 @@ const Projects = () => {
                        <div className="grid md:grid-cols-2 gap-5 py-10  sm:py-16 lg:py-24">
                          {projects && projects.length> 0 && projects.map(project =>{
                              return (
-                                <motion.a variants={fadeInVarients} initial = {'hidden'} animate = {'show'} whileHover = {'showChild'} href = {project.link} key ={project.name} target = '_blank' rel = 'noreferrer' className=" group relative w-full  overflow-hidden rounded-2xl shadow-lg">
-                                     <img src = {project.image} alt = "project image" className="h-full  filter " />
+                                <motion.a variants={fadeInVarients} initial = {'hidden'} animate = {'show'} whileHover = {'showChild'} href = {project.link} key ={project.name} target = '_blank' rel = 'noreferrer' className="aspect-video group relative w-full  overflow-hidden rounded-2xl shadow-lg ">
+                                     <ImageLoader src = {project.image} alt = {project.image} />
                                      <div className="absolute bottom-0 left-0 text-white p-5 max-w-sm bg-gray-900/80 rounded-se-xl">
                                          <p className="font-medium">{project.name}</p>
-                                         <motion.p variants={variants} className="text-sm overflow-hidden">{project.desc}</motion.p>
+                                         <motion.p variants={variants} className="text-sm overflow-hidden h-0">{project.desc}</motion.p>
                                      </div>
                                 </motion.a>
                              )

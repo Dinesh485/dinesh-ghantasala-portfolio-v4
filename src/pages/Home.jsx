@@ -3,6 +3,7 @@ import profileimage from 'src/assets/images/profile.webp'
 import {motion } from 'framer-motion'
 import { pageVarients,  fadeInVarients } from 'src/constants/animationVariants'
 import DotsPattern from 'src/components/dotsPattern'
+import ImageLoader from 'src/components/ImageLoader'
 const Home = () => {
    
 
@@ -13,25 +14,27 @@ const Home = () => {
         <section className="py-20 sm:py-16 lg:py-24 xl:pt-32 ">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
                 <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
-                    <div className="relative lg:mb-12">
-                        <div className="absolute -right-0 -bottom-8 xl:-bottom-12 xl:-right-4 dark:hue-rotate-30" >
-                            <DotsPattern />
-                        </div>
-                        <div className="pl-12 pr-6 ">
-                            <img className="relative max-h-[600px] mx-auto" src={profileimage} alt=""   />
-                        </div>
-                        <div className="absolute left-0 pr-12 bottom-8 xl:bottom-20">
-                            <div className="max-w-xs bg-blue-600 rounded-lg sm:max-w-md xl:max-w-md">
-                                <div className="px-3 py-4 sm:px-5 sm:py-8">
-                                    <div className="flex items-start">
-                                        
-                                        <blockquote className="ml-5">
-                                            <p className="text-sm font-medium text-white sm:text-lg">“Committed to Continuous Learning and Building Innovative Solutions”</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className=" lg:mb-12 flex justify-center">
+                          <div className="relative w-56 lg:w-72 xl:w-80  ">
+                              <div className="absolute w-2/3 -right-[25%] -bottom-[25%] dark:hue-rotate-30" >
+                                  <DotsPattern />
+                              </div>
+                              <div className="aspect-[2/3]  relative rounded-md"    >
+                                  <ImageLoader src={profileimage} alt="profile picture" />
+                              </div>
+                              <div className="absolute bottom-[5%] -left-[30%] w-[125%]  ">
+                                  <div className=" bg-blue-600 rounded-lg w-full">
+                                      <div className="px-3 py-4 lg:px-5 lg:py-6">
+                                          <div className="flex items-start">
+
+                                              <blockquote className="ml-5">
+                                                  <p className="text-sm font-medium text-white lg:text-base xl:text-lg">“Committed to Continuous Learning and Building Innovative Solutions”</p>
+                                              </blockquote>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
                     </div>
 
                     <div  className="2xl:pl-16">
