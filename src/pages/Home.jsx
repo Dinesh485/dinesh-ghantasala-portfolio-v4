@@ -36,7 +36,7 @@ const Home = () => {
 
                     <div  className="2xl:pl-16">
                         <motion.h2 variants={fadeInVarients} className="text-3xl font-bold leading-tight text-black dark:text-gray-100 sm:text-4xl lg:text-5xl lg:leading-tight">Hi! <span className="text-4xl sm:text-6xl">👋</span> <br /> I&apos;m Dinesh</motion.h2>
-                        <motion.p variants={fadeInVarients} className="text-xl leading-relaxed text-gray-900 dark:text-gray-300 mt-9">Talented MERN app developer with a passion for crafting exceptional web applications. Continuously learning and dedicated to delivering high-quality solutions. Embracing challenges with humility and a collaborative mindset. Eager to contribute my skills to drive organizational success.</motion.p>
+                        <motion.p variants={fadeInVarients} className="text-xl leading-relaxed text-gray-900 dark:text-gray-300 mt-9">Experienced MERN stack developer skilled in crafting high-quality web applications. Passionate about learning, embracing challenges, and contributing to organizational success through innovation and collaboration.</motion.p>
                         <motion.p variants={fadeInVarients} className="mt-6 text-xl leading-relaxed text-gray-900 dark:text-gray-300">Learn more about me <NavLink to = '/contact' className='text-blue-500 underline'>here  </NavLink></motion.p>
                     </div>
                 </div>

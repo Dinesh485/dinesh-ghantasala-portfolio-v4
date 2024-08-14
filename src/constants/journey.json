@@ -20,8 +20,13 @@
         "description": "Following the completion of my college education, I embarked on a new chapter as a freelance developer, with React as my primary focus. Engaging in various React projects, I honed my expertise in this powerful JavaScript library. Working independently, I faced new challenges head-on, further refining my problem-solving abilities and expanding my knowledge of frontend development."
     },
     {
+        "date": "June 2023",
+        "title": "Starting at NTWIST: Gaining Professional Experience",
+        "description": "I joined NTWIST in Hyderabad as a MERN stack developer. In this role, I have worked on a variety of complex projects, contributing to both frontend and backend development. The experience has enabled me to deepen my expertise in the MERN stack and collaborate with a talented team. I've tackled diverse challenges, developed solutions that meet high standards, and continued to enhance my skills in a professional setting."
+    },
+    {
         "date": "Present",
-        "title": "Seeking the Next Chapter: Eager to Contribute at a Company",
-        "description": "Now, with a strong foundation and a wealth of experiences behind me, I am eager to embark on the next stage of my career. I am actively seeking an opportunity to join a forward-thinking company, where I can contribute my skills, collaborate with a talented team, and continue growing as a MERN stack developer. I am ready to take on new challenges, make a meaningful impact, and thrive in a dynamic and innovative work environment."
+        "title": "Exploring New Opportunities: Looking for Growth",
+        "description": "With over a year of experience at nTwist, I am now exploring new opportunities that offer further growth and challenges. I am eager to leverage my skills in a dynamic environment that aligns with my career aspirations and allows me to make a meaningful impact."
     }
 ]

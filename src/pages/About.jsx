@@ -21,7 +21,7 @@ const About = () => {
 
                                     <div className="mt-10 md:mt-0">
 
-                                        <p className="text-base leading-relaxed  text-gray-800 xl:text-lg dark:text-gray-200">I&apos;m <span className='font-bold text-xl dark:text-gray-100'>Dinesh Ghantasala</span>, hailing from Eluru, Andhra Pradesh, India. I have a Bachelor of Science degree in Computer Science from Sir C R Reddy College. With a passion for web development, I specialize in HTML, CSS, JavaScript, and React. Seeking an exciting job opportunity to apply and expand my expertise as a MERN stack developer. Committed to continuous learning and eager to contribute to a dynamic organization.</p>
+                                        <p className="text-base leading-relaxed  text-gray-800 xl:text-lg dark:text-gray-200">I'm Dinesh Ghantasala from Eluru, Andhra Pradesh, India, with a Bachelor of Science degree in Computer Science from Sir C R Reddy College. As a MERN stack developer, I've experience in HTML, CSS, JavaScript, React, Express, and MongoDB. My passion for web development drives me to continually learn and explore new technologies, always aiming to create impactful and efficient web solutions. I'm dedicated to refining my craft and staying engaged with the latest industry trends.</p>
 
 
                                     </div>
