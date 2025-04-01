@@ -27,13 +27,6 @@ const projects = [
         
     },
     {
-        name: "Outlight",
-        image: outlight,
-        desc: "Outlight provides instagram and youtube services for it's users",
-        link: "https://outlight.live",
-        
-    },
-    {
         name: "Anafoxbeauty.org",
         image: anafox,
         desc: "Anafoxbeauty is a beauty saloon ",
