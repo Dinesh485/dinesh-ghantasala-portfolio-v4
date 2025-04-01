@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import profileimage from 'src/assets/images/profile.webp'
 import {motion } from 'framer-motion'
 import { pageVarients,  fadeInVarients } from 'src/constants/animationVariants'
-import DotsPattern from 'src/components/dotsPattern'
+import DotsPattern from 'src/components/DotsPattern'
 import ImageLoader from 'src/components/ImageLoader'
 const Home = () => {
    
